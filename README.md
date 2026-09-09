@@ -74,8 +74,7 @@ EDITH-Edge-Voice-Activator/
 ├── Encryption_analysis/
 │   ├── Server_audio_receiver.py   # Remote audio receiver / server
 │   ├── Streaming.c                # Audio streaming implementation
-│   └── dummy_code_tester.c        # Testing code
-│
+
 ├── marvin_kws_int8.tflite         # INT8-quantized KWS model
 ├── model_data.h                   # Embedded model data for deployment
 
