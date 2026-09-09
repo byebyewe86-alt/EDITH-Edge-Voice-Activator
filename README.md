@@ -69,17 +69,20 @@ Listen      Audio Buffer
 ## 📁 Project Structure
 
 ```text
-EDITH/
-├── firmware/       # Edge device code
-├── model/          # KWS model
-├── server/         # Remote ASR
-├── data/            # Dataset
-├── experiments/     # Experiments & results
-├── docs/            # Documentation
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
+EDITH-Edge-Voice-Activator/
+│
+├── Encryption_analysis/
+│   ├── Server_audio_receiver.py   # Remote audio receiver / server
+│   ├── Streaming.c                # Audio streaming implementation
+│   └── dummy_code_tester.c        # Testing code
+│
+├── marvin_kws_int8.tflite         # INT8-quantized KWS model
+├── model_data.h                   # Embedded model data for deployment
+
+│
+├── .gitignore                     # Ignored files and secrets
+├── README.md                      # Project documentation
+└── SIH_PPT_2026.pdf               # SIH presentation/reference
 
 ## 🤝 Contributing
 
